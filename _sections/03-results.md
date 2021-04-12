@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Results
-description: Wrapping up "In a nutshell", some quick results.
+description: Parcels from all atlases show significant specificity, indicating that the three architectures taken into account here could explain equally well the observed patterns in ICC_CVR and ICC_lag. This could indicate that CVR and its lag could share specific individual characteristics with other cerebral features (e.g. functional networks). Moreover, given that functional areas are vascularised by sections of the carotid arteries, our observation that both atlases present similarly specific reliability corroborates the presence of an important link between vascular physiology and functional networks.
 image: results.png
 ---
 
-This is a longer description of the study methods. It appears in the "Full Text".
-You can write in markdown or html here! And add images too.
+Figures 2 and 3 show the probability of ICC_CVR and ICC_lag maps being more homogeneous in the true data than in surrogate data, respectively. For both ICC_CVR and ICC_lag maps, the areas vascularised by the left intermediate and distal anterior, medial, and posterior carotid artery, as well as by the right intermediate anterior carotid artery, have high probability of presenting homogeneous reliability beyond that expected due to spatial autocorrelation. Contrary to our hypothesis, for both ICC_CVR and ICC_lag maps, the left somatomotor, dorsal attention, salience, control, and default mode networks, as well as the right somatomotor, salience, and default mode network (plus the dorsal attention network for ICC_CVR maps), also exhibit high probability of presenting homogeneous reliability. Similarly, most of the subcortical areas, as well as the left cerebellum in the case of ICC_CVR maps, feature high homogeneity.
+Parcels from all atlases show significant specificity, indicating that the three architectures taken into account here could explain equally well the observed patterns in ICC_CVR and ICC_lag. This could indicate that CVR and its lag could share specific individual characteristics with other cerebral features (e.g. functional networks [16,17]). Moreover, given that functional areas are vascularised by sections of the carotid arteries, our observation that both atlases present similarly specific reliability corroborates the presence of an important link between vascular physiology and functional networks [18]⁠.

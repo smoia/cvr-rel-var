@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Methods
-description: Now, who doesn't like a brief method explanation?
+description: After computing ICC maps of CVR and its lag response, we compute 1000 whole-brain surrogate datasets of both. We then use three different atlases (vascular, functional, and subcortical) to assess the probability of the ICC variance being lower in the original data than in the surrogate null data - if they are, we can assume that the parcellation matches the intrinsic organisation of the data.
 image: methods.png
 ---
 
-This is a longer description of the study methods. It appears in the "Full Text".
-You can write in markdown or html here! And add images too.
+We leveraged a precision functional mapping dataset of BH tasks [3]⁠ (Figure 1B), acquired in seven subjects over ten sessions, using optimally-combined multi-echo BOLD fMRI14⁠. Subjects were instructed through visual cues. Further details about the breath-hold paradigm, data acquisition and preprocessing can be found in [10⁠] (see Figure 1).
+For the current study, we used the maps of the voxelwise reliability of CVR and lag metrics (ICC_CVR and ICC_lag, respectively) of the optimally-combined analysis (see Figure 2 adapted from [10] ). Then, we generated 1000 whole-brain surrogate datasets of the voxelwise ICC_CVR and ICC_lag maps, maintaining spatial autocorrelation properties [15]⁠.
+We used each atlas (vascular, functional, and subcortical) to extract within-parcel variance of the ICC values from the original ICC maps and from all surrogates maps, scaling them by the variance of all brain voxels. We used a modified version of the atlas described in [12⁠] to take into account inter-hemispheric differences. Finally, for each ROI we assessed the probability of the ICC variance being lower in the original data than in the surrogate null data, that would indicate a better match with the intrinsic organisation of the data. Otherwise, the underlying data might be better described with a different organization than that delimited by the region.
